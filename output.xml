@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.0 (Python 3.9.2 on win32)" generated="20210323 22:52:05.088" rpa="false" schemaversion="2">
+<suite id="s1" name="TesteSitePractice" source="C:\Projetos\SuiteSiteTestePractice\Tests\TesteSitePractice.robot">
+<test id="s1-t1" name="Caso de Teste 01: Pesquisar Produtos">
+<status status="FAIL" starttime="20210323 22:52:05.400" endtime="20210323 22:52:05.401">Test case contains no keywords.</status>
+</test>
+<test id="s1-t2" name="Existentes">
+<kw name="Acessar a página home do site" library="Resource">
+<kw name="go to http://automationpractice.com/index.php">
+<msg timestamp="20210323 22:52:05.415" level="FAIL">No keyword with name 'go to http://automationpractice.com/index.php' found.</msg>
+<status status="FAIL" starttime="20210323 22:52:05.415" endtime="20210323 22:52:05.415"/>
+</kw>
+<kw name="Title Should Be" library="SeleniumLibrary">
+<arg>My Store</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="NOT RUN" starttime="20210323 22:52:05.415" endtime="20210323 22:52:05.415"/>
+</kw>
+<status status="FAIL" starttime="20210323 22:52:05.407" endtime="20210323 22:52:05.416"/>
+</kw>
+<status status="FAIL" starttime="20210323 22:52:05.405" endtime="20210323 22:52:05.416">No keyword with name 'go to http://automationpractice.com/index.php' found.</status>
+</test>
+<status status="FAIL" starttime="20210323 22:52:05.091" endtime="20210323 22:52:05.418"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="2" skip="0" id="s1" name="TesteSitePractice">TesteSitePractice</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20210323 22:52:05.081" level="ERROR">Error in file 'C:\Projetos\SuiteSiteTestePractice\Tests\TesteSitePractice.robot' on line 4: Non-existing setting 'Teste SETUP'. Did you mean:
+    Test Setup
+    Suite Setup</msg>
+<msg timestamp="20210323 22:52:05.082" level="ERROR">Error in file 'C:\Projetos\SuiteSiteTestePractice\Tests\TesteSitePractice.robot' on line 5: Non-existing setting 'Teste TEARDOWN'. Did you mean:
+    Test Teardown</msg>
+</errors>
+</robot>
