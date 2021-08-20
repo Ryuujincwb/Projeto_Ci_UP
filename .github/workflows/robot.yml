@@ -17,4 +17,4 @@ jobs:
     - name: Robot Framework
       uses: joonvena/robotframework-docker-action@v1.0
     - name: Run tests
-      run: robot -d ./results Testes
+      run: robot -d ./results tests
