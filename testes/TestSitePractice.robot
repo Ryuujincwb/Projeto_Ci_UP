@@ -6,6 +6,7 @@ Test Teardown    Fechar Navegador
 ### SETUP ele roda keyword antes do suite ou antes de um Teste
 ### TEARDOWN ele roda keyword depois de uma suite ou um Teste
 ### Comentário Chelida
+### Coment Elaine
 *** Test Case ***
 #Caso de Teste 01: Pesquisar produto existente
 #    Acessar a página home do site
