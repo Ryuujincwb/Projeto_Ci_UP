@@ -1,0 +1,20 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    name: Run Robot Framework Tests
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Robot Framework
+      uses: joonvena/robotframework-docker-action@v1.0
+    - name: Run tests
+      run: robot -d ./results Testes
