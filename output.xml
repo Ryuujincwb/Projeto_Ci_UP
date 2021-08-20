@@ -37,5 +37,6 @@
     Suite Setup</msg>
 <msg timestamp="20210323 22:52:05.082" level="ERROR">Error in file 'C:\Projetos\SuiteSiteTestePractice\Tests\TesteSitePractice.robot' on line 5: Non-existing setting 'Teste TEARDOWN'. Did you mean:
     Test Teardown</msg>
+	
 </errors>
 </robot>
