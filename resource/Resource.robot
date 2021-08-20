@@ -35,4 +35,5 @@ Conferir se o produto "${PRODUTO}" foi listado no site
 
 Conferir mensagem de erro "${MENSAGEM_ALERTA}"
     Wait Until Element Is Visible       //*[@id="center_column"]/p[@class="alert alert-warning"]
-    
+#    Page Should Contain Textfield       xpath=//*[@id="center_column"]/p
+
