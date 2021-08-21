@@ -8,6 +8,10 @@
 
 Parabéns :trophy: 
 
+:1st_place_medal: Chélida ketelin Arantes
+
+:1st_place_medal: Elaine Pacheco Pereira
+
 :1st_place_medal: Luiz Fabricio Angioletti
 
 Trabalho entregue !!!!
